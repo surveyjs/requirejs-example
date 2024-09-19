@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Knockout component loading via Requirejs sample</title>
-    <script data-main="index" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
-    <link href="index.css" rel="stylesheet" />
-    <link href="https://surveyjs.azureedge.net/1.0.44/survey.css" type="text/css" rel="stylesheet" />
-    <link href="https://surveyjs.azureedge.net/1.0.44/surveyeditor.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>SurveyJS Example</title>
+    <link rel="stylesheet" href="https://unpkg.com/survey-core@1.11.7/defaultV2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/survey-creator-core@1.11.7/survey-creator-core.css" />
+    <script data-main="scripts/main" src="node_modules/requirejs/require.js"></script>
 </head>
-
 <body>
-    <div id="surveyElement"></div>
-    <div id="surveyResult"></div>
-    <div id="surveyContainer">
-        <div id="editorElement"></div>
-    </div>
+    <h1>SurveyJS Example</h1>
+    <div id="surveyContainer" style="min-height: 100hv;"></div>
+    <div id="surveyCreatorContainer" style="min-height: 100hv;"></div>
 </body>
-
 </html>

@@ -1,15 +1,23 @@
 {
-  "name": "ko-requirejs-sample",
+  "name": "minimal-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-connect": "latest"
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "survey-knockout": "^1.0.41"
+    "http-server": "^14.1.1",
+    "knockout": "^3.5.1",
+    "requirejs": "^2.3.7",
+    "survey-core": "^1.12.1",
+    "survey-creator-core": "^1.12.1",
+    "survey-creator-knockout": "^1.12.1",
+    "survey-knockout-ui": "^1.12.1",
+    "typescript": "^5.5.3"
   }
 }

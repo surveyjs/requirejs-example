@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "outDir": "./scripts",
+        "rootDir": "./",
+        "strict": true,
+        "baseUrl": "./",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "index.ts"
+    ]
+}
